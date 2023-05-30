@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;500&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #1cd1b0;
+  width: 100%;
+  font-size: 1.2vw;
+  font-weight: 500;
+  padding: 0.5vw;
+  text-indent: 2vw;
+}
+
+#mainTitle {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #00669f;
+  font-size: 3vw;
+  padding: 2vw;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  z-index: 1;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3vw;
+  margin-inline: 3vw;
+  overflow: visible;
+}
+
+article {
+  margin-block: 15vw;
+  position: relative;
+  background-color: #f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 1vw;
+  height: 53vw;
+}
+
+article section {
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  width: 100%;
+  height: 40%;
+  background-image: url("../Images/baticueva.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 7.4vw;
+}
+
+.corazon {
+  all: unset;
+  position: absolute;
+  width: 3vw;
+  top: 1vw;
+  left: 1.5vw;
+}
+
+.fondo-harley {
+  background-image: url("../Images/explosión-de-color.jpeg");
+}
+
+article img {
+  position: absolute;
+  height: 12vw;
+  width: 12vw;
+  border-radius: 100%;
+  top: calc(40% - 6vw);
+  left: calc(50% - 6vw);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+article h2 {
+  font-size: 2.8vw;
+  text-align: center;
+  font-weight: 400;
+}
+
+article p {
+  padding: 1.6vw;
+  font-size: 1.4vw;
+  font-weight: 500;
+  color: #333333;
+}
+
+article button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 13vw;
+  margin-inline: auto;
+  bottom: 1vw;
+  background-color: #00669f;
+  color: white;
+  border: transparent;
+  outline: transparent;
+  font-size: 1.3vw;
+  padding: 1.5vw 0;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #00669f;
+  width: 100%;
+  color: white;
+  font-size: 1.2vw;
+  padding: 1vw;
+}
